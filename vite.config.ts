@@ -9,8 +9,9 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
 
 export default defineConfig({
+  base:'/color-translate',
   build:{
-    outDir:'docs'
+    outDir:'docs',
   },
   resolve: {
     alias: {
